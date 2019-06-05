@@ -1,22 +1,3 @@
-## Sudoers allows particular users to run various commands as
-## the root user, without needing the root password.
-##
-## Examples are provided at the bottom of the file for collections
-## of related commands, which can then be delegated out to particular
-## users or groups.
-## 
-## This file must be edited with the 'visudo' command.
-
-## Host Aliases
-## Groups of machines. You may prefer to use hostnames (perhaps using 
-## wildcards for entire domains) or IP addresses instead.
-# Host_Alias     FILESERVERS = fs1, fs2
-# Host_Alias     MAILSERVERS = smtp, smtp2
-
-## User Aliases
-## These aren't often necessary, as you can use regular groups
-## (ie, from files, LDAP, NIS, etc) in this file - just use %groupname 
-## rather than USERALIAS
 # User_Alias ADMINS = jsmith, mikem
 
 
